@@ -9,6 +9,9 @@ app.get('/info', (req, res) => {
     res.send('I am working');
 })
 
+app.get('/name', (req, res) => {
+    res.send('My name is Alexander');
+})
 
 app.use(cors());
 app.use(bodyParser.json());
