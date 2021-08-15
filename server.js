@@ -10,7 +10,7 @@ app.get('/info', (req, res) => {
 })
 
 app.get('/name', (req, res) => {
-    res.send('My name is Alex');
+    res.send('My name is Al');
 })
 
 app.use(cors());
